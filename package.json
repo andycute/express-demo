@@ -4,6 +4,7 @@
   "description": "Express hello world",
   "main": "app.js",
   "scripts": {
+    "prestart": "npm install",
     "start": "node app.js"
   },
   "dependencies": {
